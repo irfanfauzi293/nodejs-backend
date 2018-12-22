@@ -53,3 +53,13 @@
 {"message":"::1 - - [22/Dec/2018:07:52:58 +0000] \"DELETE /customers/18 HTTP/1.1\" 200 55 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T07:52:58.803Z"}
 {"message":"::1 - - [22/Dec/2018:07:53:09 +0000] \"GET /customer HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T07:53:09.750Z"}
 {"message":"::1 - - [22/Dec/2018:07:53:14 +0000] \"GET /customers HTTP/1.1\" 200 974 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T07:53:14.169Z"}
+{"message":"::1 - - [22/Dec/2018:08:02:33 +0000] \"GET /customers HTTP/1.1\" 200 974 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T08:02:33.690Z"}
+{"level":"error","timestamp":"2018-12-22T09:49:59.452Z"}
+{"message":"::1 - - [22/Dec/2018:09:49:59 +0000] \"GET /accounts HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T09:49:59.466Z"}
+{"level":"error","timestamp":"2018-12-22T09:52:00.405Z"}
+{"message":"::1 - - [22/Dec/2018:09:52:00 +0000] \"GET /accounts HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T09:52:00.421Z"}
+{"message":"::1 - - [22/Dec/2018:09:52:07 +0000] \"GET /account/1 HTTP/1.1\" 500 2529 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T09:52:07.412Z"}
+{"message":"::1 - - [22/Dec/2018:09:53:37 +0000] \"GET /accounts HTTP/1.1\" 200 1483 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T09:53:37.088Z"}
+{"level":"error","timestamp":"2018-12-22T09:53:46.560Z"}
+{"message":"::1 - - [22/Dec/2018:09:53:46 +0000] \"GET /account/1 HTTP/1.1\" 200 79 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T09:53:46.563Z"}
+{"message":"::1 - - [22/Dec/2018:09:54:41 +0000] \"GET /account/1 HTTP/1.1\" 200 115 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T09:54:41.597Z"}
