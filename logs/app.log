@@ -1,0 +1,8 @@
+{"message":"::1 - - [22/Dec/2018:04:21:28 +0000] \"GET /customers HTTP/1.1\" 200 1012 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:21:28.066Z"}
+{"message":"::1 - - [22/Dec/2018:04:21:33 +0000] \"GET /customer/6 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:21:33.516Z"}
+{"message":"::1 - - [22/Dec/2018:04:22:48 +0000] \"GET /customer/6 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:22:48.449Z"}
+{"message":"::1 - - [22/Dec/2018:04:24:57 +0000] \"GET /customer/6 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:24:57.051Z"}
+{"message":"::1 - - [22/Dec/2018:04:26:07 +0000] \"GET /customer/6 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:26:07.055Z"}
+{"message":"::1 - - [22/Dec/2018:04:26:21 +0000] \"GET /customer/a HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:26:21.870Z"}
+{"message":"::1 - - [22/Dec/2018:04:26:27 +0000] \"GET /customer/ HTTP/1.1\" 404 148 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:26:27.020Z"}
+{"message":"::1 - - [22/Dec/2018:04:26:53 +0000] \"GET /customer/10 HTTP/1.1\" 200 14 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info","timestamp":"2018-12-22T04:26:53.896Z"}
