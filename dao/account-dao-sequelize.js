@@ -56,7 +56,7 @@ exports.update = function update(id, data, callback) {
     }
 
     Account.update(data ,{
-        where: { accountNumber: data.accountNumber},
+        where: { accountNumber : data.accountNumber},
         returning : true,
         plain: true
     })

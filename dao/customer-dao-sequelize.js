@@ -64,4 +64,5 @@ exports.del = function del(id, callback) {
         logger.error(error);
         return callback(error);
     })
+    
 }

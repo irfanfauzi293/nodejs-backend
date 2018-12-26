@@ -27,14 +27,14 @@ exports.getAccountId = function(req,res) {
 exports.updateAccount = function(req,res) {
     logger.info('request for update');
     logger.debug(req.body);
-    accountDao.getById(req.body.account_number,function(err,data){
+    accountDao.getById(req.body.accountNumber,function(err,data){
         if(err) {
             console.log('error call getById : ' + err);
             response.err(err, res);
         } else if (data==null) {
             response.datanotfound('account not found', res);
         } else {
-            accountDao.update(req.body.account_number,req.body, function(err,data) {
+            accountDao.update(req.body.accountNumber,req.body, function(err,data) {
                 if (err) {
                     console.log('error call update : '+ err);
                     response.err(error,res);
@@ -66,7 +66,7 @@ exports.del = function(req,res) {
         } else if (data==null) {
             response.datanotfound('account not found', res);
         }else {
-            accountDao.deleteId(req.params['id'],function(err,data) {
+            accountDao.del(req.params['id'],function(err,data) {
                 if(err) {
                     console.log('error call delete : '+ err);
                     response.err(error,res);
